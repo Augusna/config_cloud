@@ -5,7 +5,7 @@ zuul:
      #   serviceId: erueka-server-home
      #方式一
      api-b:
-        path: /hcycom-xl/**
+        path: /hcycom-xlg/**
         serviceId: ribbon-consumer
         sensitiveHeaders:   #不设置cookie，设置为空就可以了
      erueka-server-home: /hcycom-ljf/**  #这句话等同于第一个请求路由   简洁写法：server-id: path    方式二
