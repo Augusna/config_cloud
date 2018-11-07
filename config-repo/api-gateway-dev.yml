@@ -10,5 +10,5 @@ zuul:
         sensitiveHeaders:   #不设置cookie，设置为空就可以了
      erueka-server-home: /hcycom-ljf/**  #这句话等同于第一个请求路由   简洁写法：server-id: path    方式二
   ignored-patterns:     #在yml配置set，用 -  表示空格
-     - /hcycom-xl/ribbon-consumer       #/path/server-id
+    # - /hcycom-xl/ribbon-consumer       #/path/server-id
      - /hcycom-ljf/erueka-server-home
