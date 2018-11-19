@@ -1,8 +1,8 @@
 zuul:
   routes:
-    # api-a:
-     #   path: /hcycom-ljf/**
-     #   serviceId: erueka-server-home
+     api-a:
+        path: /user/**
+        serviceId: user
      #方式一
      api-b:
         path: /hcycom-xl/**
