@@ -1,9 +1,10 @@
 zuul:
+  sensitive-headers: 
   routes:
      api-a:
         path: /user/**
         serviceId: user
-        sensitiveHeaders:
+        #sensitiveHeaders:
      #方式一
      api-b:
         path: /hcycom-xl/**
